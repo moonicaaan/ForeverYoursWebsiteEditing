@@ -3417,8 +3417,10 @@ body .scrollbar-track-x .scrollbar-thumb:hover {
 }
 
 .index-container .main-nav {
-  width: 227px;
-  padding-left: 23px
+  width: 300px;
+  height: 300px;
+  padding-left: 20px;
+  padding-right: 20px
 }
 
 @media (max-width: 540px) {
@@ -3433,12 +3435,13 @@ body .scrollbar-track-x .scrollbar-thumb:hover {
 }
 
 .index-header {
-  height: 50vh;
+  height: 40vh;
   display: flex;
   position: relative;
   align-items: flex-end;
   pointer-events: none;
-  justify-content: center
+  justify-content: center;
+  align-content: center
 }
 
 .index-header.closed-page {
@@ -3447,7 +3450,8 @@ body .scrollbar-track-x .scrollbar-thumb:hover {
 
 @media (max-height: 780px) {
   .index-content-container {
-    min-height: 570px
+  margin-top:150px  
+  min-height: 350px
   }
 
   .index-content-container--password {
@@ -6034,7 +6038,7 @@ button.swiper-pagination-bullet {
 
 @media (min-width: 921px) {
   .overflow-wrapper--small {
-    font-size: 8px
+    font-size: 14px
   }
 }
 
@@ -6555,11 +6559,13 @@ for (var attr in meta) {
   text-align:center;
   position:fixed;
   top:0;
-  margin-top:1em;
+  margin-top:3em;
+  margin-bottom:3em
 }
 
 .enter-logo-div img {
-  width: 150px;
+  width: 180px;
+  height: 180px
 }
 
 @media screen and (max-width:767px) {
@@ -6712,7 +6718,7 @@ for (var attr in meta) {
               <li class="mb-m">
               <a
                 style="padding-right: 1px; padding-left: 1px"
-                class="c-white bg-red--aa--hover"  href="https://Forever Yours.com/about">
+                class="c-white bg-red--aa--hover"  href="">
                 <span>‎ </span>
               </a>
             </li>
@@ -6733,7 +6739,7 @@ for (var attr in meta) {
             }
             
             .marquee p {
-                position: absolute;
+                position: relative;
                 width: 100%;
                 height: 100%;
                 margin: 0;
