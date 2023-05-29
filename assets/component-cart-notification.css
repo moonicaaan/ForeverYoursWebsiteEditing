@@ -13,7 +13,7 @@
   border-style: solid;
   border-width: 0 0 var(--popup-border-width);
   padding: 2.5rem 3.5rem;
-  position: absolute;
+  position: static;
   right: 0;
   transform: translateY(-100%);
   visibility: hidden;
@@ -38,7 +38,7 @@
 
   .cart-notification {
     border-width: 0 var(--popup-border-width) var(--popup-border-width);
-    max-width: 36.8rem;
+    max-width: none;
     right: 4rem;
   }
 }
