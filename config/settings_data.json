@@ -148,15 +148,15 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/FY-GIF_1.gif",
-          "logo_width": 110,
+          "logo_width": 150,
           "logo_position": "top-center",
           "menu": "",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": false,
           "margin_bottom": 0,
-          "padding_top": 16,
-          "padding_bottom": 12
+          "padding_top": 0,
+          "padding_bottom": 0
         }
       },
       "footer": {
