@@ -3020,7 +3020,7 @@ title {
   display: table;
   height: 100vh;
   width: 100%;
-  background-image:url("")
+  background-image:url("");
   background-attachment:fixed;
   background-position:center center;
 }
@@ -3029,7 +3029,7 @@ title {
   display: table;
   height: 100vh;
   width: 100%;
-  background-image:url("https://i.pinimg.com/564x/30/ac/eb/30aceb0716c2b05f04ca83d61293525a.jpg");
+  background-image:url("https://cdn.shopify.com/s/files/1/0618/3360/9377/t/6/assets/FY%20X.png?v=1683516197");
   background-size:cover;
   background-attachment:fixed;
   background-position:center center;
@@ -3072,7 +3072,7 @@ div#shopify-section-main-password-footer hr {
 .template-collection #shopify-section-header .nav-bar:after {background: transparent !important;}
 .template-product #shopify-section-header .nav-bar:after{background: transparent !important;}
 .nav-bar .page-width {background: #fff !important;}
-}
+
 
 .template-index #shopify-section-header .nav-bar:after {background: transparent !important;}
 .template-collection #shopify-section-header .nav-bar:after {background: transparent !important;}
