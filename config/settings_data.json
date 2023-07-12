@@ -122,7 +122,8 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "checkout_sidebar_background_image": "shopify:\/\/shop_images\/RGB.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/FOREVER_YOURS_EPS_VECTOR-01_e276b95f-0d05-46d0-b2f0-d1a8a36a6aba.png",
+    "checkout_logo_size": "large",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
