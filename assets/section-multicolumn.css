@@ -221,6 +221,11 @@
   white-space: nowrap;
 }
 
+@media screen and (min-width: 990px) {
+  .multicolumn-list__item--empty {
+    display: list-item;
+  }
+}
 @media screen and (max-width: 749px){
     .multicolumn-list .grid__item {
         width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2) !important;
