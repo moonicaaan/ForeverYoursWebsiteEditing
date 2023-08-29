@@ -226,6 +226,6 @@
     display: list-item;
   }
 }
-.multicolumn-list__item {
+.multicolumn-list__item 3
    max-width: 50% !important;
 }
