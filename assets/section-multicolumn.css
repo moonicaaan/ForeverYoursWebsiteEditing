@@ -221,12 +221,15 @@
   white-space: nowrap;
 }
 
-@media screen and (max-width: 767px){
-.multicolumn:not(.background-none) .multicolumn-card {
-    width: 95% !important;
-}
-.grid--1-col .grid__item {
-    max-width: 50% !important;
-    width: 50% !important;
-}
+@media screen and (max-width: 749px){
+    .multicolumn-list .grid__item {
+        width: calc(30% - var(--grid-desktop-horizontal-spacing) / 2) !important;
+    }
+    .background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .multicolumn-card__info h3 {
+        font-size: 1.7rem !important;
+    }
 }
